@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<webMethodsTestSuite description="" name="wmTestSuite.xml">
+<webMethodsTestSuite description="" name="TS_wmTestSuite.xml">
     <webMethodsTestCase name="StraightTest">
         <service folder="test1" name="divideInts">
             <input>
