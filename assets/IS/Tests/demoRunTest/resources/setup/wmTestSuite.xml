@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="wmTestSuite.xml">
+    <webMethodsTestCase name="addNum">
+        <service folder="demoRun.fs" name="addNum">
+            <input>
+                <file filename="resources/data/input"/>
+            </input>
+            <expected>
+                <file filename="resources/data/output"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
