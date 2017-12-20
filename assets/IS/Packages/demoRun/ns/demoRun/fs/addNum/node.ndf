@@ -104,6 +104,28 @@
   <value name="system_service">no</value>
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <record name="diffmerge_aclgroups" javaclass="com.wm.util.Values">
+      <value name="acl">&lt;Default&gt; (inherited)</value>
+      <value name="parentexecuteaclgroup">Internal</value>
+      <value name="inhAcl">true</value>
+      <value name="check_internal_acls">false</value>
+      <value name="browseaclgroup">Default</value>
+      <value name="parentbrowseaclgroup">Default</value>
+      <value name="inhbrowseAcl">true</value>
+      <value name="readaclgroup">Default</value>
+      <value name="parentreadaclgroup">Default</value>
+      <value name="inhreadAcl">true</value>
+      <value name="writeaclgroup">Default</value>
+      <value name="parentwriteaclgroup">Default</value>
+      <value name="inhwriteAcl">true</value>
+      <value name="listable">true</value>
+      <value name="readable">true</value>
+      <value name="writable">true</value>
+      <value name="executable">true</value>
+      <value name="name">demoRun.fs:addNum</value>
+    </record>
+  </record>
   <value name="svc_in_validator_options">none</value>
   <value name="svc_out_validator_options">none</value>
   <value name="auditoption">0</value>
