@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <webMethodsTestSuite description="" name="wmTestSuite.xml">
     <webMethodsTestCase name="addNum">
-        <mock folder="pub.math" name="addInts">
+        <mock enabled="false" folder="pub.math" name="addInts">
             <pipeline filename="resources/data/addNum-MockOutput"/>
         </mock>
         <service folder="demoRun.fs" name="addNum">
