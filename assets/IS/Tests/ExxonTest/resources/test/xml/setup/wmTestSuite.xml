@@ -3,10 +3,10 @@
     <webMethodsTestCase name="multiply-positiveScenario">
         <service folder="exxon.flowSvc" name="multiply">
             <input>
-                <file/>
+                <file filename="resources/test/xml/data/multiply-positive-input"/>
             </input>
             <expected>
-                <file/>
+                <file filename="resources/test/xml/data/multiply-positive-output"/>
             </expected>
         </service>
     </webMethodsTestCase>
