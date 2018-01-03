@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <webMethodsTestSuite description="" name="ExxonTestSuite">
     <webMethodsTestCase name="multiply-positiveScenario">
+        <mock folder="pub.math" name="multiplyInts">
+            <pipeline filename="resources/test/xml/data/mocked-multiply"/>
+        </mock>
         <service folder="exxon.flowSvc" name="multiply">
             <input>
                 <file filename="resources/test/xml/data/multiply-positive-input"/>
