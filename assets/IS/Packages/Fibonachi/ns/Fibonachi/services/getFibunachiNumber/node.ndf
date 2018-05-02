@@ -74,7 +74,8 @@
       <value name="modifiable">true</value>
     </record>
   </record>
-  <value name="node_comment">hello</value>
+  <value name="node_comment">hello
+changes made 5/1/18</value>
   <value name="stateless">no</value>
   <value name="caching">no</value>
   <value name="prefetch">no</value>
